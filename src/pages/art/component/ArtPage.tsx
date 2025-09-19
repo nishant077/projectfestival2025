@@ -1,4 +1,6 @@
 import ImageCursorTrail from "../../../components/ui/image-cursortrail"
+import { Skiper52 } from "../../../components/ui/skiper-ui/skiper52"
+import { Skiper16 } from "./ArtCollectionPage"
 
 const ArtPage = () => {
   const images = [
@@ -25,9 +27,9 @@ const ArtPage = () => {
           <div className="relative z-40 flex justify-center items-center h-full px-4">
           <div className="flex flex-col gap-4 text-center">
             <div className="flex items-center gap-1">
-            <h3 className="md:text-[7vw] font-[Slab-light]">A Canvas</h3>
+            <h3 className="md:text-[7vw] font-[anton]">A Canvas</h3>
             <img src="https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2Fh5Zfbzp2yIRk7lLnV86XOQ%252F_5A_0798_H.jpg&width=910" className="w-52 h-20 object-cover rounded-full shrink-0"></img>
-            <h3 className="md:text-[7vw] font-[Slab-light]">of Change</h3>
+            <h3 className="md:text-[7vw] font-[anton]">of Change</h3>
             </div>
 
             <h3 className="text-3xl md:text-4xl leading-tight">
@@ -42,6 +44,8 @@ const ArtPage = () => {
         </div>
     </ImageCursorTrail>
     </div>
+    <Skiper16/>
+    <Skiper52/>
     </div>
   )
 }

@@ -276,7 +276,7 @@ const DigitalMedia = () => {
         {/* Header section */}
         <div className="text-center mb-5">
           <div className="flex flex-col md:flex-row items-center justify-center gap-2">
-            <h1 className="text-4xl md:text-6xl font-[Slab-bold]">
+            <h1 className="text-4xl md:text-6xl font-[anton]">
               Stories That
             </h1>
             <div className="relative inline-flex">
@@ -288,7 +288,7 @@ const DigitalMedia = () => {
               <div className="absolute -inset-2 bg-yellow-200 rounded-full -z-10 blur-xl opacity-70"></div>
             </div>
           </div>
-          <h1 className="text-4xl md:text-6xl font-[Slab-bold] translate-x-28 ">
+          <h1 className="text-4xl md:text-6xl font-[anton] translate-x-28 ">
             Move Communities
           </h1>
         </div>
@@ -300,6 +300,7 @@ const DigitalMedia = () => {
               ref={videoRef}
               className="w-full h-auto block cursor-pointer"
               loop 
+              autoPlay
               muted 
               src={shiftthepower}
               onClick={togglePlay}

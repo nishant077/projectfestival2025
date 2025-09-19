@@ -10,7 +10,7 @@ const Navbar = () => {
   const { navOpen, setNavOpen } = navbarCtx;
 
   return (
-    <div className="z-50 flex fixed top-0 w-full rounded-full items-center justify-between">
+    <div className="z-50 flex fixed top-5 w-full rounded-full items-center justify-between">
       <div className="p-5">
         <h3 className="text-white text-lg font-bold"></h3>
       </div>

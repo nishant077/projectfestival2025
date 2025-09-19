@@ -110,7 +110,7 @@ const FullScreenNav = () => {
             <video autoPlay loop muted src={exhibition} className='h-screen w-full object-cover' />
           </div>
           
-          <div className='flex flex-col gap-1 text-white font-[Slab-bold] text-[4vw] items-center justify-center'>
+          <div className='flex flex-col gap-1 text-white font-[anton] text-[4vw] items-center justify-center'>
             <Link onClick={()=>{
          setNavOpen(false)
        }} to='/' className='link origin-top cursor-pointer nav-item underline-animation'>Home</Link>
@@ -121,7 +121,7 @@ const FullScreenNav = () => {
          setNavOpen(false) }} className='link origin-top cursor-pointer nav-item underline-animation'>Documentaries</Link>
             <Link onClick={()=>{
          setNavOpen(false)
-       }} to='/project' className='link origin-top cursor-pointer nav-item underline-animation'>Project </Link>
+       }} to='/project' className='link origin-top cursor-pointer nav-item underline-animation'>About</Link>
 
 <Link onClick={()=>{
          setNavOpen(false)
