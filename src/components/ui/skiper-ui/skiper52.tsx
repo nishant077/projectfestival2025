@@ -82,24 +82,24 @@ const Skiper52 = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#f8f6f4] to-[#e9e6e1] px-6 md:px-10 pt-10 pb-10 flex flex-col gap-8 md:gap-16">
+    <div className=" pt-10 pb-10 flex flex-col gap-8 md:gap-16">
       <div className="flex flex-col items-start">
-        <motion.h1 
+        {/* <motion.h1 
           className='text-4xl md:text-5xl font-[anton] mb-4'
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
           When Communities Create,
-        </motion.h1>
-        <motion.h1 
+        </motion.h1> */}
+        {/* <motion.h1 
           className='text-4xl md:text-5xl font-[anton]'
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           Change Takes Shape
-        </motion.h1>
+        </motion.h1> */}
         
         <AnimatePresence mode="wait">
           <motion.p 

@@ -4,7 +4,7 @@ import Navbar from './components/navigation/Navbar'
 import FullScreenNav from './components/navigation/FullScreenNav'
 import ArtPage from './pages/art/component/ArtPage'
 import DigitalMedia from './pages/DitigalMedia/DigitalMedia'
-import { VirtualGallery } from './pages/exhibition/VirtualGallery'
+import { About} from './pages/about/About'
 import Media from './pages/DitigalMedia/Media'
 
 
@@ -20,7 +20,7 @@ const App = () => {
         <Route path='/' element={<HomePage />}/>
         <Route path='/art' element={<ArtPage/>}/>
         <Route path='/digital-media' element={<DigitalMedia/>}/>
-        <Route path='/project' element={<VirtualGallery/>}/>
+        <Route path='/project' element={<About/>}/>
         <Route path='/media' element={<Media/>}/>
       </Routes>
     </div>

@@ -26,7 +26,7 @@ const ArtPage = () => {
         >
           <div className="relative z-40 flex justify-center items-center h-full px-4">
           <div className="flex flex-col gap-4 text-center">
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-3">
             <h3 className="md:text-[7vw] font-[anton]">A Canvas</h3>
             <img src="https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2Fh5Zfbzp2yIRk7lLnV86XOQ%252F_5A_0798_H.jpg&width=910" className="w-52 h-20 object-cover rounded-full shrink-0"></img>
             <h3 className="md:text-[7vw] font-[anton]">of Change</h3>

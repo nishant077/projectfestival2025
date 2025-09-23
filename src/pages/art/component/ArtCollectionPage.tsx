@@ -79,13 +79,13 @@ const Skiper16 = () => {
     <ReactLenis root>
       <main
         ref={container}
-        className="relative flex w-full flex-col items-center justify-center pb-[40vh] pt-[50vh] bg-[#1e1e1e] text-white"
+        className="relative flex w-full flex-col  gap-2 items-center justify-center pb-[40vh] pt-[50vh] bg-[#1e1e1e] text-white"
       >
         <div className="absolute left-1/2 top-[5%] grid -translate-x-1/2 content-start justify-items-center gap-6 text-center">
-          <span className="font-[anton] relative max-w-5xl text-5xl">
+          <h3 className="font-[anton] relative max-w-5xl text-5xl">
           Every brushstroke, every frame, every idea—an act of giving, an act of change.
-          </span>
-          <p className='relative max-w-xl text-gray-500 text-sm md:text-base'>The Art Showcase is a celebration of creativity born from community spirit. Here, artists translate generosity, resilience, and hope into powerful visuals that invite us to see the world through new perspectives.</p>
+          </h3>
+          <p className='relative max-w-xl text-sm md:text-base'>The Art Showcase is a celebration of creativity born from community spirit. Here, artists translate generosity, resilience, and hope into powerful visuals that invite us to see the world through new perspectives.</p>
         </div>
         {projects.map((project, i) => {
           const targetScale = Math.max(
