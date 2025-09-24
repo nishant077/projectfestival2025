@@ -71,6 +71,7 @@
   }
 }
 
+
 /* Hide scrollbars only inside gallery */
 .virtual-gallery-page::-webkit-scrollbar {
   display: none;
