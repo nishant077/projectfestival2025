@@ -1,0 +1,35 @@
+.virtual-gallery-page {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+  }
+  
+  .virtual-gallery-page canvas {
+    display: block;
+    outline: none;
+    cursor: grab;
+  }
+  
+  .virtual-gallery-page canvas:active {
+    cursor: grabbing;
+  }
+  
+  /* Lights, controls, overlays, and info panel */
+  .controls-overlay { /* your previous controls CSS */ }
+  .gallery-info { /* your previous info panel CSS */ }
+  .fullscreen-btn { /* your previous fullscreen button CSS */ }
+  
+  /* Loading screen */
+  .loading-screen { /* your previous loading screen CSS */ }
+  .loading-spinner { /* spinner CSS */ }
+  
+  /* Keep scrollbars hidden only inside gallery */
+  .virtual-gallery-page::-webkit-scrollbar { display: none; }
+  .virtual-gallery-page { scrollbar-width: none; -ms-overflow-style: none; }
+  
+  /* Animations, high-DPI optimizations, responsive styles */
+  /* copy-paste from your previous CSS but replace body / #root with .virtual-gallery-page */
+  
