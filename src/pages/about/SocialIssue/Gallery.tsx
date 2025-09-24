@@ -44,7 +44,6 @@ const Gallery = () => {
     },
   ];
 
-  const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <div className=" pt-10 pb-10 px-10 flex flex-col gap-8 md:gap-10">
@@ -52,7 +51,6 @@ const Gallery = () => {
         <h3 className="text-4xl font-[anton]">Stories in Pictures</h3>
         <AnimatePresence mode="wait">
           <motion.p 
-            key={activeIndex}
             className="mt-6 max-w-2xl text-lg"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}

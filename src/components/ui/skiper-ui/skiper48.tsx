@@ -1,4 +1,4 @@
-"use client";
+
 
 import { motion } from "framer-motion";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
@@ -7,14 +7,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { cn } from "../../../lib/utils";
 
 import art1 from '../../../assets/images/About4.jpeg'
-import art2 from '../../../assets/images/About7.jpeg'
 import art3 from '../../../assets/images/Gallery14.jpeg'
 import art4 from '../../../assets/images/Gallery15.jpeg'
 import art5 from '../../../assets/images/Gallery16.jpeg'
 import art6 from '../../../assets/images/About2.jpeg'
-import art7 from '../../../assets/images/Gallery17.jpeg'
-import art8 from '../../../assets/images/Gallery18.jpg'
-import art9 from '../../../assets/images/Gallery24.jpeg'
+
 
 const Skiper48 = () => {
   const images = [
