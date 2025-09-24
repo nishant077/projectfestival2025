@@ -8,11 +8,13 @@ export const partners =[
         image: partner1,
         title:'GFCF',
         description:'The Global Fund for Community Foundations (GFCF) is a global, virtual organization with a small team, headquartered in Johannesburg. We have been working with the global community philanthropy field since 2006, and are all about building networks with like-minded organizations that see the power of people-led development.',
+      
     },
     {
         image: partner2,
         title:'Africa Philanthropy Network (APN)',
         description:'The Africa Philanthropy Network (APN) is a continent-wide platform of member organizations promoting the voice and action for African philanthropy. APN is a space for philanthropy support organizations and individual in Africa and its diaspora to interrogate and intervene in the power dynamics that shape how resource mobilization, distribution, and spending impact the possibilities of transformative work in Africa. ',
+       
     },
     {
         image: partner3,
