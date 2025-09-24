@@ -1,10 +1,7 @@
-import React from "react";
+
+import { Gallery } from "./Gallery";
+import VideoSection from "./VideoSection";
 import Works from "./Works";
-import { StoriesBlog } from "./StoriesBlog";
-
-
-
-const ReactPlayer = React.lazy(() => import("react-player"));
 
 const Lgbtq = () => {
 
@@ -39,7 +36,8 @@ const Lgbtq = () => {
           </div>
        </div>
        <Works/>
-       <StoriesBlog/>
+       <Gallery/>
+       <VideoSection/>
     </div>
   )
 }

@@ -1,12 +1,15 @@
 import Video from '../../components/home/Video'
 import Section2 from './Section2'
 import exhibition from './../../assets/Exhibition.mp4'
-
-
-
-
+import { useNavigate } from 'react-router-dom';
 
 const HomePage = () => {
+
+  const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate('/about');
+    };
   return (
     <div>
         <div className='w-screen h-screen bg-[#FAFDEE]'>
@@ -23,6 +26,31 @@ const HomePage = () => {
             </div> Change</div>
         <div className='text-[6vw] uppercase leading-[8vw] flex items-center justify-center'>Festival 2025</div>
     </div>
+    <div className='flex items-center justify-center cursor-pointer'>
+    <button onClick={handleClick} className="
+    px-8 
+    py-3 
+    border-2 
+    cursor-pointer
+    border-[#C2F84F]
+    text-white  
+    font-bold 
+    rounded-full
+    shrink-0
+    transition-all 
+    duration-300 
+    ease-in-out
+    hover:bg-[#C2F84F]
+    hover:text-gray-800
+    hover:shadow-lg
+    active:scale-95
+    absolute
+    top-130
+">
+    Start Your Journey
+</button>
+</div>
+
     <div className='absolute top-120 right-10 text-base font-bold text-white max-w-96 text-justify'>
        <span>Join us in a global celebration of art and community philanthropy. Experience digital art, documentaries, short films, and paintings created by inspiring changemakers who are reimagining how communities give, share, and transform together.</span>
     </div>
