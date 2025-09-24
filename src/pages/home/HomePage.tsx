@@ -12,7 +12,7 @@ const HomePage = () => {
     };
   return (
     <div>
-        <div className='w-screen h-screen bg-[#FAFDEE]'>
+        <div className='w-full h-screen bg-[#FAFDEE] overflow-hidden'>
           <div className='relative'>
         <Video/>
         </div>
