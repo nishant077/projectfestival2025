@@ -6,6 +6,7 @@ import ArtPage from './pages/art/component/ArtPage'
 import DigitalMedia from './pages/DitigalMedia/DigitalMedia'
 import { About} from './pages/about/About'
 import Media from './pages/DitigalMedia/Media'
+import Lgbtq from './pages/about/SocialIssue/Lgbtq'
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/digital-media' element={<DigitalMedia/>}/>
         <Route path='/project' element={<About/>}/>
         <Route path='/media' element={<Media/>}/>
+        <Route path='/lgbtq' element={<Lgbtq/>}/>
       </Routes>
     </div>
   )

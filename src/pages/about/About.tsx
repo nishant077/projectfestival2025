@@ -41,7 +41,7 @@ const About = () => {
         <p className='font-medium text-3xl'> community voices and celebrates grassroots action. Through film, photography, and storytelling, it brings to life the struggles and triumphs of ordinary people who are driving extraordinary change. More than just a showcase, the festival is a movement — rooted in community philanthropy and the #ShiftThePower vision, where communities everywhere take the lead in shaping their futures. 🚀</p>
         </div>
         
-        <div className="space-y-2">
+        <div className="space-y-2 relative z-10">
             <div className='border-t-[1px] border-gray-300'></div>
           <div className="">
             <div className="flex justify-start">
@@ -54,7 +54,7 @@ const About = () => {
             </div>  
             <div className='border-t-[1px] border-gray-300'></div>
             </div>
-            <div className="space-y-2">
+            <div className="space-y-2 relative z-10">
           <div className="">
             <div className="flex justify-end">
             <p className="relative z-10 text-base max-w-xl font-medium">
@@ -64,7 +64,7 @@ const About = () => {
             <div className='border-t-[1px] border-gray-300'></div>
             </div>
 
-            <div className="space-y-2">
+            <div className="space-y-2 relative z-10">
           <div className="">
             <div className="flex justify-end">
             <p className="relative z-10 text-base max-w-xl font-medium">
@@ -75,7 +75,7 @@ const About = () => {
             </div>
             <Partners/>
         <LinePath
-          className="absolute -bottom-[-70px] z-0"
+          className="absolute top-0 z-0"
           scrollYProgress={scrollYProgress}
         />
      
