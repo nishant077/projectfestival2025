@@ -1,10 +1,16 @@
 import { useNavigate } from "react-router-dom";
 
+interface Topic {
+  image: string;
+  title: string;
+  path: string;
+}
+
 
 const SocialIssue = () => {
     const navigate = useNavigate();
 
-    const topics = [
+    const topics:Topic[] = [
         {
           image: "https://www.bigissue.com/wp-content/uploads/2022/05/50-years-of-LGBTQ-pride.png?w=1920",
           title: "LGBTQ",
@@ -27,7 +33,7 @@ const SocialIssue = () => {
         }
       ];
     
-      const handleNavigation = (path) => {
+      const handleNavigation = (path:string) => {
         navigate(path);
       };
 
